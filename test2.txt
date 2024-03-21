@@ -1,0 +1,6 @@
+$.get(
+    ROOT_PATH + 'http://data.dothanhlong.org/api4echarts/?idtram=CCTL09&loaidata=doman.json',
+    function (thoigian) {
+        run(thoigian);    
+    }
+)

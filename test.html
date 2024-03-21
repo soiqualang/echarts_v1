@@ -1,0 +1,18 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script>
+    //alert('haha');
+    $.get(
+    'http://data.dothanhlong.org/api4echarts/?idtram=CCTL09&loaidata=doman',
+    function (data) {
+        // // Duyệt qua dữ liệu JSON
+        // for (const country of data) {
+        // // Hiển thị tên quốc gia và tuổi thọ trung bình
+        // console.log(`${country.country}: ${country.life_expectancy}`);
+        // }
+
+        console.log(data);
+    }
+    );
+
+</script>
